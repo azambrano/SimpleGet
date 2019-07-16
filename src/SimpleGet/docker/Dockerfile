@@ -1,7 +1,7 @@
 FROM mcr.microsoft.com/dotnet/core/sdk:2.2 AS build-env
 COPY . /app
 RUN ls app
-WORKDIR /app/CV.FNMA.Api
+WORKDIR /app/SimpleGet
 RUN dotnet clean
 RUN dotnet restore
 RUN dotnet publish -c Release -o publish

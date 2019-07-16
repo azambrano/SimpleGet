@@ -1,0 +1,11 @@
+version: '3'
+services:
+    simpleget:
+        container_name: simple-get
+        build:
+            context: ../src
+            dockerfile: SimpleGet/docker/Dockerfile
+        ports:
+            - "9021:9021"
+        environment:
+            - ASPNETCORE_ENVIRONMENT=Production
