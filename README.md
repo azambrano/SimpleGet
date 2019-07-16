@@ -1,2 +1,2 @@
 # SimpleGet
-A Simple NuGet and Symbol server.
+A Simple NuGet and Symbol server for .Net Core
